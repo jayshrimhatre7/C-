@@ -1,0 +1,13 @@
+#include<iostream.h>
+#include<conio.h>
+
+void main()
+{
+  clrscr();
+  int n;
+  cout<<"***Program to display the number entered by the user***"<<endl;
+  cout<<"Enter the number: ";
+  cin>>n;
+  cout<<"The number entered: "<<n;
+  getch();
+}
