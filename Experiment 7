@@ -1,0 +1,25 @@
+#include <iostream>
+
+using namespace std;
+class Car
+    {
+            public:
+            string brand;
+            string model;
+    };
+        int main()
+        {
+                Car c,c1;
+                c.brand="BMW";
+                c.model="BMW 5";
+                
+                c1.brand="Mercedes-Benz";
+                c1.model="Mercedes-Benz Class A";
+               
+               
+                cout<<c.brand<<"\n";
+                cout<<c.model<<"\n";
+                cout<<c1.brand<<"\n";
+                cout<<c1.model;
+                return 0;
+            }
