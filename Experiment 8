@@ -1,0 +1,37 @@
+#include <iostream>
+
+using namespace std;
+
+class studentinfo
+    {
+            private:
+            string name,std,div;
+            int roll;
+            public:
+            void input()
+            {
+                    cout<<"Enter your name: "<<endl;
+                    cin>>name;
+                    cout<<"Enter your Standard: "<<endl;
+                    cin>>std;
+                    cout<<"Enter your division: "<<endl;
+                    cin>>div;
+                    cout<<"Enter your Roll No: "<<endl;
+                    cin>>roll;
+            }
+            
+            void display()
+            {
+                cout<<"Name: "<<name<<endl;
+                cout<<"Standard: "<<std<<endl;
+                cout<<"Division: "<<div<<endl;
+                cout<<"Roll No: "<<roll<<endl;
+            }
+    };
+        int main()
+        {
+               studentinfo s;
+               s.input();
+               s.display();
+                return 0;
+            }
